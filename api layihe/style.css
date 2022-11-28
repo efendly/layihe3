@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    li{
+        list-style: none;
+        margin-left:11px;
+       
+    
+    }
+    ul{
+        display:flex;
+    
+    }
+    a{
+        text-decoration:none;
+        font-size:11px;
+        font-weight: 500;
+        color:#959BA4;
+    }
+    nav{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #F5F5F6;;
+    }
+    .login-btn button{
+        width:58px;
+        height:33px;
+        line-height: 13px;
+        background-color: white;
+        border-radius: 5px;
+        border:none;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    
+    .currency{
+        display: flex;
+        width:641px;
+        /* height:181px; */
+        margin: auto;
+        justify-content: space-between;
+    }
+    
+    h5{
+        margin-left:11px;
+        margin-bottom:15px;
+        color:#9F9F9F
+    }
+    .head-sec{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 33px;
+    }
+    .head-sec h1{
+        font-weight:700;
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    section{
+        width:641px;
+        margin-top:56px !important;
+        margin:auto;
+    }
+    
+    .currency li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid #E5E5E5;
+        width:64px;
+        height:28px;
+        margin: 0;
+    }
+    .left-row li:last-child,.right-row li:last-child{
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    .left-row li:first-child,.right-row li:first-child{
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+     
+    }
+    .left-input{
+    width:259px;
+    height:102px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    margin-top: 7px;
+    display: flex;
+    position: relative;
+    }
+    .right-input{
+    width:259px;
+    height:102px;
+    border: 1px solid #E5E5E5;
+    border-radius:3px;
+    margin-top: 7px;
+    display: flex;
+    position: relative;
+    }
+    input{
+        width: 100%;
+        border: none;
+        outline: none;
+        height: 60px;
+        font-size: 2rem;
+        position: relative;
+        font-size:36px;
+        font-weight: 700;
+    }
+    p{
+       position: absolute;
+       bottom: 5px;
+       color: #C6C6C6;
+       font-size: 12px;
+    }
+    .isActive{
+        background-color:#833AE0;
+        color:white;
+    }
